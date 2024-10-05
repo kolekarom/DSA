@@ -1,3 +1,4 @@
+//this  program can find prime number just give a number and check it through input
 #include <iostream>
 using namespace std;
 
