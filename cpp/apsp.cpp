@@ -1,4 +1,4 @@
-kruskals algorithm
+
 
 #include <iostream>
 #include <vector>
