@@ -6,7 +6,7 @@ using namespace std;
 class Solution {
 public:
     void reverseString(vector<char>& str) { //taking a vector of char 
-        reverse(str.begin(), str.end()); // Reverse the vector in
+        reverse(str.begin(), str.end()); // Reverse the vector 
     }
 };
 
