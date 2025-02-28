@@ -7,7 +7,7 @@ float toCelsius(float fahrenheit) {
 
 int main() {
   // Set a fahrenheit value
-  float f_value = 98.8;
+  float f_value = 98.8;//pre defined valued
 
   // Call the function with the fahrenheit value
   float result = toCelsius(f_value);
