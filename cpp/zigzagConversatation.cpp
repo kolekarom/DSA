@@ -10,7 +10,7 @@ public:
         }
         vector<string> g(numRows); // initialize a vector of strings
         int i = 0, k = -1; // initialize two pointers
-        for (char c : s) { // iterate over the string
+        for (char c : s) { // iterate over the string to fill the vector of strings
             g[i] += c; // add the character to the current row
             if (i == 0 || i == numRows - 1) { // if at the top or bottom row
                 k = -k; // change the direction 
