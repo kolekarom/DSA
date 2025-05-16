@@ -2,8 +2,8 @@
 #include <algorithm>
 using namespace std;
 
-bool isAnagram(string s, string t) { 
-    if (s.length() != t.length()) 
+bool isAnagram(string s, string t) {
+    if (s.length() != t.length())  //check the length
         return false; 
 
     sort(s.begin(), s.end()); 
