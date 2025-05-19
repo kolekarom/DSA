@@ -18,8 +18,8 @@ public:
         return true; //if we have iterated through all characters in ransomNote without returning false, return true
     }
 };
-int main() {
-    Solution solution;
+int main() { 
+    Solution solution; 
     string ransomNote;
     string magazine;
     cout << "enter the ransom note: ";
@@ -27,7 +27,7 @@ int main() {
     cout << "enter the magazine: ";
     cin >> magazine;
     
-    cout << boolalpha << solution.canConstruct(ransomNote, magazine) << endl;   
+    cout << boolalpha << solution.canConstruct(ransomNote, magazine) << endl;    // print output with function call
     return 0;
     
 }
