@@ -24,10 +24,10 @@ int main() {
     string magazine;
     cout << "enter the ransom note: ";
     cin >> ransomNote;
-    cout << "enter the magazine: ";
+    cout << "enter the magazine: "; 
     cin >> magazine;
     
     cout << boolalpha << solution.canConstruct(ransomNote, magazine) << endl;    // print output with function call
-    return 0;
+    return 0; 
     
 }
