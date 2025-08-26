@@ -5,8 +5,8 @@ void merge(vector<int> &arr, int st, int mid, int end){
     vector<int > temp;
     int i = st; // starting index for left subarray
     int j = mid + 1; // starting index for right subarray
-    while(i <= mid && j <= end){
-        if(arr[i] <= arr[j]){
+    while(i <= mid && j <= end){ // merge the two subarrays
+        if(arr[i] <= arr[j]){ // change to < for descending order
             temp.push_back(arr[i]);
             i++;
         }else{
