@@ -12,9 +12,18 @@ public class twoSum {
         return new int[] {-1, -1};
     }
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter the size of the array : ");
+        int n = sc.nextInt();
+        int[] nums = new int[n];
+        System.out.println("Enter the elements of the array : ");
+        for(int i = 0; i < n; i++){
+            nums[i] = sc.nextInt();
+        }
+        System.out.println("Enter the target : ");
+        int target = sc.nextInt();
         twoSum ts = new twoSum();
-        int[] nums = {2,7,11,15};
-        int target = 9;
         int[] res = ts.twoSum(nums, target);
         System.out.println(Arrays.toString(res));
     }
