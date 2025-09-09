@@ -41,7 +41,7 @@ class Solution {
             }
             
             i++;
-        }
+        } 
 
         return (int)(res * sign);
 
