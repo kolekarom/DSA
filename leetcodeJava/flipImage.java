@@ -6,10 +6,10 @@ class Solution {
     }
     public void reverse(int[] arr){
         int l = 0, r = arr.length-1;
-        while(l <= r){
-            int temp = arr[l];
-            arr[l++] = arr[r] ^ 1;
-            arr[r--] = temp ^ 1;
+        while(l <= r){ // <= to handle the middle element in odd-length arrays
+            int temp = arr[l]; // store left value
+            arr[l++] = arr[r] ^ 1; // assign inverted right value to left and increment left pointer
+            arr[r--] = temp ^ 1; // assign inverted stored left value to right and decrement right pointer
         }
     }
 }
