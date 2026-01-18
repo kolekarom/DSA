@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "residivePrefix",
+            "request": "launch",
+            "mainClass": "residivePrefix",
+            "projectName": "DSA_62c8c54e"
+        },
+        {
+            "type": "java",
             "name": "encap",
             "request": "launch",
             "mainClass": "encap",
