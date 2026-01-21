@@ -84,6 +84,7 @@ void removeTask(vector<string> &tasks)
     showTasks(tasks);
 
     if (tasks.empty())
+        cout << "⚠️ No tasks to remove!\n";
         return;
 
     int index;
